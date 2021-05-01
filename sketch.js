@@ -28,7 +28,7 @@ function setup() {
   mo.addAnimation("collided",mon1);
   mo.scale=0.1;
   mo.setCollider("circle",0,0,200);
-  camera.position.x=mo.x;
+  camera.position.x=200;
   camera.position.y=mo.y;
   
   ig = createSprite(200, 380,400,10);
